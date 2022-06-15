@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    background-color: #6869a0;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+#title,
+#description {
+    text-align: center;
+}
+
+#title {
+    margin-top: 50px;
+}
+
+#description {
+    font-style: italic;
+}
+
+#survey-form {
+    width: 30vw;
+    margin: 0 auto;
+    background-color: #2a2a48;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+label,
+input,
+select,
+textarea {
+    display: block;
+}
+
+label {
+    margin-top: 25px;
+    font-weight: 500;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea,
+button {
+    width: 100%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+    height: 1.75rem;
+    padding-left: 5px;
+}
